@@ -1,0 +1,11 @@
+state timing: entering
+== d05: n=3454  Var(y)=2.8273  sd(y)=1.6814
+d05 obs-only (reading channel)       R2 = -0.1671 (+/- 0.0145)
+d05 public-only (state block)        R2 = 0.2715 (+/- 0.0107)
+== ctrl: n=3463  Var(y)=3.3281  sd(y)=1.8243
+ctrl obs-only (reading channel)      R2 = -0.1388 (+/- 0.0196)
+ctrl public-only (state block)       R2 = 0.2102 (+/- 0.0392)
+
+reading-channel rise (d05-ctrl): -0.0283
+public-channel rise (d05-ctrl):  +0.0613
+== D05_CHANNEL_DONE ==

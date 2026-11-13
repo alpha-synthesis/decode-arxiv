@@ -1,0 +1,186 @@
+{
+  "world": "worlds/adversarial_v72_d05_train",
+  "rows": 46673,
+  "state_timing": "entering",
+  "lags": [
+    0.6936085222124648,
+    0.6941050656364114,
+    0.6953181954279187
+  ],
+  "gru128x2_seed0": [
+    0.7478119060399921,
+    0.7462681062578556,
+    0.7471526581672708
+  ],
+  "gru128x2_seed0_stops": [
+    {
+      "best_epoch": 25,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 28,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "gru128x2_seed1": [
+    0.7489227822980203,
+    0.745122027339447,
+    0.7443971286888899
+  ],
+  "gru128x2_seed1_stops": [
+    {
+      "best_epoch": 27,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 26,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "lstm128x2_seed0": [
+    0.7497475748607799,
+    0.7453491640011602,
+    0.7450457190763673
+  ],
+  "lstm128x2_seed0_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 27,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "lstm128x2_seed1": [
+    0.751434947631311,
+    0.7421803987648199,
+    0.739672670605587
+  ],
+  "lstm128x2_seed1_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 26,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "tfm64x2_seed0": [
+    0.7004608083376364,
+    0.6616472422307615,
+    0.6971546558468837
+  ],
+  "tfm64x2_seed0_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "tfm64x2_seed1": [
+    0.7096350366944599,
+    0.7027877516686087,
+    0.6937355482100485
+  ],
+  "tfm64x2_seed1_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 28,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "gru32long_seed0": [
+    0.7526685907426391,
+    0.752510471068353,
+    0.7496965188675648
+  ],
+  "gru32long_seed0_stops": [
+    {
+      "best_epoch": 69,
+      "last_epoch": 84,
+      "hit_max": false
+    },
+    {
+      "best_epoch": 92,
+      "last_epoch": 99,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 49,
+      "last_epoch": 64,
+      "hit_max": false
+    }
+  ],
+  "gru32long_seed1": [
+    0.7527338514531209,
+    0.7520839904739469,
+    0.7492920255427893
+  ],
+  "gru32long_seed1_stops": [
+    {
+      "best_epoch": 67,
+      "last_epoch": 82,
+      "hit_max": false
+    },
+    {
+      "best_epoch": 96,
+      "last_epoch": 99,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 90,
+      "last_epoch": 99,
+      "hit_max": true
+    }
+  ]
+}

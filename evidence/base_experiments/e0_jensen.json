@@ -1,0 +1,9 @@
+{
+  "n": 4000,
+  "n_draws": 512,
+  "joint_value_mean": 1563.7170685666958,
+  "ce_chain_value_mean": 1738.655448706099,
+  "jensen_gap_mean": -174.93838013940325,
+  "jensen_gap_abs_p95": 821.9147128901242,
+  "note": "gap = E_posterior[exact value of the executed plan] - the DP's certainty-equivalent valuation of it. Executed VALUE on the board still comes from grade_plan with the true z; this measures how far the DP's internal yardstick is from the Bayes value, i.e. whether a joint-aware solver is worth building."
+}

@@ -1,0 +1,19 @@
+{
+  "world": "adversarial_v7_check",
+  "probe_state_timing": "entering",
+  "bands": [
+    {
+      "band": "prob_separation",
+      "value": 0.1141,
+      "pass": true,
+      "detail": "(min 0.08)"
+    },
+    {
+      "band": "prob_headroom",
+      "value": 0.3108,
+      "pass": true,
+      "detail": "(min 0.2)"
+    }
+  ],
+  "note": "bands 6-7 of gates/adversarial_v7_check_gate.py recomputed with the committed probe; the other bands do not use the probe and keep their archived values (evidence/gate_reports/v7_check_gate_report.json)"
+}

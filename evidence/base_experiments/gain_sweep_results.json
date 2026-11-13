@@ -1,0 +1,22 @@
+{
+  "0.0": {
+    "separation": 0.1135,
+    "headroom": 0.3519
+  },
+  "0.1": {
+    "separation": 0.1021,
+    "headroom": 0.3434
+  },
+  "0.2": {
+    "separation": 0.1024,
+    "headroom": 0.3411
+  },
+  "0.4": {
+    "separation": 0.0761,
+    "headroom": 0.3517
+  },
+  "0.7": {
+    "separation": 0.0577,
+    "headroom": 0.3615
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "flagged_cells": [],
+  "flips": {
+    "hybrid_none_exact_sequential": {
+      "plan_cells_flipped": 1348,
+      "of_total": 24000,
+      "month0_flips": 167,
+      "month0_flips_into_flagged_cells": 0
+    },
+    "hybrid_contact_exact_sequential": {
+      "plan_cells_flipped": 18068,
+      "of_total": 24000,
+      "month0_flips": 2066,
+      "month0_flips_into_flagged_cells": 0
+    },
+    "hybrid_none_exact_static_sequential": {
+      "plan_cells_flipped": 1053,
+      "of_total": 24000,
+      "month0_flips": 114,
+      "month0_flips_into_flagged_cells": 0
+    },
+    "hybrid_contact_exact_static_sequential": {
+      "plan_cells_flipped": 17138,
+      "of_total": 24000,
+      "month0_flips": 1725,
+      "month0_flips_into_flagged_cells": 0
+    }
+  }
+}

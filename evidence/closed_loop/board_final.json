@@ -1,0 +1,199 @@
+{
+  "n_loans": 4000,
+  "ceiling_per_loan": 1431.08,
+  "n_boot": 10000,
+  "rows_pct_of_ceiling": {
+    "ceiling": 100.0,
+    "oracle_W6": 100.0,
+    "history_sequential": 84.4,
+    "belief_sequential": 82.28,
+    "flat_sequential": 80.65,
+    "oracle_W1": 76.13,
+    "history_myopic": 67.78,
+    "p7_myopic": 66.32,
+    "flat_myopic": 65.59,
+    "analyst": 64.74,
+    "random": 29.11,
+    "myopic_bound": 76.13
+  },
+  "AC2_closed_vs_own_open_loop": {
+    "history_sequential": {
+      "frozen_pct": 82.91,
+      "closed_loop_pct": 84.4,
+      "source": "paired, both rows from this harness",
+      "delta_pp": 1.489,
+      "ci95": [
+        0.767,
+        2.246
+      ],
+      "p_le_0": 0.0,
+      "tie_at_95": false,
+      "published_open_loop_pct": 82.91,
+      "frozen_reproduces_published": true
+    },
+    "belief_sequential": {
+      "frozen_pct": 83.77,
+      "closed_loop_pct": 82.28,
+      "source": "paired, both rows from this harness",
+      "delta_pp": -1.487,
+      "ci95": [
+        -2.122,
+        -0.85
+      ],
+      "p_le_0": 1.0,
+      "tie_at_95": false,
+      "published_open_loop_pct": 83.77,
+      "frozen_reproduces_published": true
+    },
+    "flat_sequential": {
+      "frozen_pct": 80.62,
+      "closed_loop_pct": 80.65,
+      "source": "paired, both rows from this harness",
+      "delta_pp": 0.034,
+      "ci95": [
+        -0.935,
+        1.07
+      ],
+      "p_le_0": 0.4909,
+      "tie_at_95": true,
+      "published_open_loop_pct": 80.62,
+      "frozen_reproduces_published": true
+    },
+    "history_myopic": {
+      "frozen_pct": 67.73,
+      "closed_loop_pct": 67.78,
+      "source": "paired, both rows from this harness",
+      "delta_pp": 0.049,
+      "ci95": [
+        -0.226,
+        0.342
+      ],
+      "p_le_0": 0.3672,
+      "tie_at_95": true,
+      "published_open_loop_pct": 67.73,
+      "frozen_reproduces_published": true
+    },
+    "p7_myopic": {
+      "frozen_pct": 66.21,
+      "closed_loop_pct": 66.32,
+      "source": "paired, both rows from this harness",
+      "delta_pp": 0.112,
+      "ci95": [
+        -0.055,
+        0.281
+      ],
+      "p_le_0": 0.0956,
+      "tie_at_95": true
+    },
+    "flat_myopic": {
+      "frozen_pct": 66.03,
+      "closed_loop_pct": 65.59,
+      "source": "paired, both rows from this harness",
+      "delta_pp": -0.444,
+      "ci95": [
+        -0.627,
+        -0.264
+      ],
+      "p_le_0": 1.0,
+      "tie_at_95": false,
+      "published_open_loop_pct": 66.03,
+      "frozen_reproduces_published": true
+    },
+    "analyst": {
+      "frozen_pct": 64.74,
+      "closed_loop_pct": 64.74,
+      "source": "paired, both rows from this harness",
+      "delta_pp": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "p_le_0": 1.0,
+      "tie_at_95": true
+    }
+  },
+  "AC2_pass": true,
+  "adjacent_pairs": {
+    "oracle_W6 - history_sequential": {
+      "delta_pp": 15.601,
+      "ci95": [
+        14.361,
+        17.011
+      ],
+      "p_le_0": 0.0,
+      "tie_at_95": false
+    },
+    "history_sequential - belief_sequential": {
+      "delta_pp": 2.118,
+      "ci95": [
+        0.819,
+        3.339
+      ],
+      "p_le_0": 0.0015,
+      "tie_at_95": false
+    },
+    "belief_sequential - flat_sequential": {
+      "delta_pp": 1.631,
+      "ci95": [
+        0.171,
+        3.211
+      ],
+      "p_le_0": 0.0137,
+      "tie_at_95": false
+    },
+    "flat_sequential - oracle_W1": {
+      "delta_pp": 4.52,
+      "ci95": [
+        2.581,
+        6.352
+      ],
+      "p_le_0": 0.0,
+      "tie_at_95": false
+    },
+    "oracle_W1 - history_myopic": {
+      "delta_pp": 8.35,
+      "ci95": [
+        7.336,
+        9.6
+      ],
+      "p_le_0": 0.0,
+      "tie_at_95": false
+    },
+    "history_myopic - p7_myopic": {
+      "delta_pp": 1.46,
+      "ci95": [
+        0.615,
+        2.439
+      ],
+      "p_le_0": 0.0001,
+      "tie_at_95": false
+    },
+    "p7_myopic - flat_myopic": {
+      "delta_pp": 0.731,
+      "ci95": [
+        0.044,
+        1.429
+      ],
+      "p_le_0": 0.0195,
+      "tie_at_95": false
+    },
+    "flat_myopic - analyst": {
+      "delta_pp": 0.848,
+      "ci95": [
+        0.048,
+        1.732
+      ],
+      "p_le_0": 0.0185,
+      "tie_at_95": false
+    },
+    "analyst - random": {
+      "delta_pp": 35.634,
+      "ci95": [
+        32.371,
+        38.987
+      ],
+      "p_le_0": 0.0,
+      "tie_at_95": false
+    }
+  }
+}

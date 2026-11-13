@@ -1,0 +1,59 @@
+{
+  "pass": true,
+  "bands": [
+    {
+      "band": "myopia_gap_pct",
+      "value": 27.09,
+      "pass": true,
+      "detail": "(band [15.0, 40.0])"
+    },
+    {
+      "band": "top1_path_share",
+      "value": 25.15,
+      "pass": true,
+      "detail": "(max 60.0)"
+    },
+    {
+      "band": "krule_gap_pp",
+      "value": 19.86,
+      "pass": true,
+      "detail": "(min 2.0; best path ['none', 'phone', 'none', 'phone', 'none', 'phone'])"
+    },
+    {
+      "band": "coverage_min_cell",
+      "value": 7629,
+      "pass": true,
+      "detail": "(min 50, 27 cells)"
+    },
+    {
+      "band": "recovered_1m",
+      "value": 0.0448,
+      "pass": true,
+      "detail": "(band [0.03, 0.065])"
+    },
+    {
+      "band": "recovered_9m",
+      "value": 0.1415,
+      "pass": true,
+      "detail": "(band [0.14, 0.25])"
+    },
+    {
+      "band": "prob_separation",
+      "value": 0.1114,
+      "pass": true,
+      "detail": "(min 0.08)"
+    },
+    {
+      "band": "prob_headroom",
+      "value": 0.2993,
+      "pass": true,
+      "detail": "(min 0.2)"
+    },
+    {
+      "band": "flat_board_pct",
+      "value": 59.22,
+      "pass": true,
+      "detail": "(max 85.0)"
+    }
+  ]
+}

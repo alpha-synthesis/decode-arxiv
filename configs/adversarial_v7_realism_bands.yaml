@@ -1,0 +1,12 @@
+myopia_gap_pct: {min: 15.0, max: 40.0}
+top1_path_share_max: 60.0
+krule_gap_min_pp: 2.0
+
+coverage_min_per_cell: 50
+
+recovered_1m: {min: 0.030, max: 0.065}
+recovered_9m: {min: 0.140, max: 0.250}
+
+prob_separation_min: 0.08
+prob_headroom_min: 0.20
+flat_board_max_pct: 85.0

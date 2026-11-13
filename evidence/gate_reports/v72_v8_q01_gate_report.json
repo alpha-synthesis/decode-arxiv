@@ -1,0 +1,47 @@
+{
+  "pass": true,
+  "bands": [
+    {
+      "band": "train.recovered_1m",
+      "value": 0.0483,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.03, 0.1])"
+    },
+    {
+      "band": "train.recovered_9m",
+      "value": 0.1605,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.1, 0.22])"
+    },
+    {
+      "band": "infer.recovered_1m",
+      "value": 0.0693,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.03, 0.1])"
+    },
+    {
+      "band": "infer.recovered_9m",
+      "value": 0.1775,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.1, 0.22])"
+    },
+    {
+      "band": "pilot_drift.train.rec9m",
+      "value": 0.0247,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(pilot 0.1852; warn above 0.03)"
+    },
+    {
+      "band": "pilot_drift.infer.rec9m",
+      "value": 0.0077,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(pilot 0.1852; warn above 0.03)"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "pct": {
+    "bayes_filter": 93.74645165368568,
+    "bayes_filter_frozen": 93.7031694820333
+  },
+  "boot": {
+    "history_sequential": {
+      "delta_pp": 9.348,
+      "ci95": [
+        8.6,
+        10.146
+      ],
+      "p_le_0": 0.0
+    },
+    "belief_sequential (CE-Seq)": {
+      "delta_pp": 11.465,
+      "ci95": [
+        10.08,
+        12.822
+      ],
+      "p_le_0": 0.0
+    },
+    "bayes_filter:frozen": {
+      "delta_pp": 0.043,
+      "ci95": [
+        -0.143,
+        0.239
+      ],
+      "p_le_0": 0.3374
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "logged_sensor_mean": [
+    1.345,
+    -0.0369
+  ],
+  "logged_sensor_std": [
+    0.7149,
+    0.3985
+  ],
+  "n_reference_loans": 3801,
+  "n_cohort": 4000,
+  "belief_sequential": {
+    "mean_abs_z_dev": 0.8022,
+    "final_month_dev": 0.6714,
+    "contacts_per_loan": 2.99
+  },
+  "history_sequential": {
+    "mean_abs_z_dev": 0.8375,
+    "final_month_dev": 0.7875,
+    "contacts_per_loan": 3.932
+  },
+  "flat_sequential": {
+    "mean_abs_z_dev": 0.7521,
+    "final_month_dev": 0.6562,
+    "contacts_per_loan": 3.356
+  },
+  "history_myopic": {
+    "mean_abs_z_dev": 1.0413,
+    "final_month_dev": 1.1939,
+    "contacts_per_loan": 5.982
+  },
+  "oracle_W6": {
+    "mean_abs_z_dev": 0.8362,
+    "final_month_dev": 0.7339,
+    "contacts_per_loan": 3.294
+  }
+}

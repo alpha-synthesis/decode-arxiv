@@ -1,0 +1,15 @@
+{
+  "n_loans": 4000,
+  "k": 6,
+  "H": 6,
+  "world_seed": 16002,
+  "obs_salt": "0x7c105ed",
+  "ceiling_per_loan": 1431.08,
+  "myopic_bound_pct": 76.13,
+  "rows": {
+    "hybrid_none_exact_sequential": 83.16,
+    "hybrid_contact_exact_sequential": 93.59,
+    "hybrid_none_exact_static_sequential": 83.32,
+    "hybrid_contact_exact_static_sequential": 90.33
+  }
+}

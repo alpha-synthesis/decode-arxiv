@@ -1,0 +1,20 @@
+{
+  "member": "MEM-4 (failed original)",
+  "config": "adversarial_v72_d40_scenario_frozen.yaml",
+  "released_config_sha256": "469f8ad2b95e6ef6b1bda7fc40698bbbfbdeecf338898f38db718c53e1aeaa77",
+  "config_semantic_sha256": "ecc729450aa8afba7c4c864c39eab5bf41391db40b85e96ad45df1ea1dea661a",
+  "note": "comments removed; the parsed configuration is identical to the released one (semantic hash equal)",
+  "generation_batch_size": 10000,
+  "worlds": {
+    "train": {
+      "seed": 18001,
+      "gated_utc": "2026-09-01T04:09:28.450145+00:00",
+      "recorded_config_sha256": "469f8ad2b95e6ef6b1bda7fc40698bbbfbdeecf338898f38db718c53e1aeaa77"
+    },
+    "infer": {
+      "seed": 18002,
+      "gated_utc": "2026-09-01T04:09:28.450312+00:00",
+      "recorded_config_sha256": "469f8ad2b95e6ef6b1bda7fc40698bbbfbdeecf338898f38db718c53e1aeaa77"
+    }
+  }
+}

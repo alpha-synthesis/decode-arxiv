@@ -1,0 +1,27 @@
+{
+  "n_loans": 4000,
+  "k": 6,
+  "H": 6,
+  "world_seed": 16002,
+  "obs_salt": "0x7c105ed",
+  "ceiling_per_loan": 1431.08,
+  "myopic_bound_pct": 76.13,
+  "rows": {
+    "oracle_W6": 100.0,
+    "oracle_W1": 76.13,
+    "random": 29.11,
+    "belief_sequential": 82.28,
+    "flat_myopic": 65.59,
+    "history_myopic": 67.78,
+    "flat_sequential": 80.65,
+    "history_sequential": 84.4
+  },
+  "V3_harness_oracle_W6_vs_ceiling": {
+    "max_abs_diff": 1.0913936421275139e-11,
+    "pass": true
+  },
+  "V3_harness_oracle_W1_vs_myopic_bound": {
+    "max_abs_diff": 7.275957614183426e-12,
+    "pass": true
+  }
+}

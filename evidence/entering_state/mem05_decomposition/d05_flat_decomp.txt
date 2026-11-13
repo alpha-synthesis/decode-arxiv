@@ -1,0 +1,14 @@
+state timing: entering
+rows d05 3454  control 3463
+intersection rows 15  (jaccard 0.002)
+flat d05 (all rows)           n=  3454  R2 = 0.4195 (+/- 0.0166)
+flat control (all rows)       n=  3463  R2 = 0.3634 (+/- 0.0141)
+flat d05 (intersection)       n=    15  R2 = -0.2649 (+/- 0.1830)
+flat control (intersection)   n=    15  R2 = -0.3855 (+/- 0.3543)
+
+paired rise, all rows:       +0.0561
+paired rise, SAME cohort:    +0.1207
+composition share:           -0.0646
+d05 dpd mean all 212.0 / inter 179.2
+ctrl dpd mean all 216.0 / inter 192.6
+== D05_DECOMP_DONE ==

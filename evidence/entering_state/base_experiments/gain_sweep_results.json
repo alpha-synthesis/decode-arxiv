@@ -1,0 +1,23 @@
+{
+  "_state_timing": "entering",
+  "0.0": {
+    "separation": 0.1265,
+    "headroom": 0.3678
+  },
+  "0.1": {
+    "separation": 0.1329,
+    "headroom": 0.3577
+  },
+  "0.2": {
+    "separation": 0.1195,
+    "headroom": 0.3611
+  },
+  "0.4": {
+    "separation": 0.093,
+    "headroom": 0.3697
+  },
+  "0.7": {
+    "separation": 0.0845,
+    "headroom": 0.3753
+  }
+}

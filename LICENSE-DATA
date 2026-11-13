@@ -1,0 +1,14 @@
+Configurations, manifests, evidence, model weights and the rule policy in this
+release (the directories configs/, manifests/, evidence/, models/ and policy/)
+are licensed, to the extent the authors hold rights in them, under the
+Creative Commons Attribution 4.0 International licence (CC BY 4.0).
+
+Copyright (c) 2026 Alpha Synthesis Labs
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The release contains no Fannie Mae loan-level data. The Fannie Mae
+Single-Family Loan Performance Data are subject to Fannie Mae's own terms of
+use and are not covered by this licence. The file
+evidence/fannie/panel_columns.json lists the field names of Fannie Mae's public
+file layout and is likewise not covered by this licence.

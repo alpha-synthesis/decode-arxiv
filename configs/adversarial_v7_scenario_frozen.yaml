@@ -1,0 +1,53 @@
+seed: 16001
+
+population:
+  borrowers: 100000
+  loans_per_borrower: [1, 1]
+
+panel:
+  months: 24
+
+actions:
+  channels: [none, sms, whatsapp, phone]
+  channel_weights: {none: 0.30, sms: 0.30, whatsapp: 0.25, phone: 0.15}
+  channel_costs: {none: 0.0, sms: 0.05, whatsapp: 0.05, phone: 3.00}
+  human_channels: [phone]
+  max_discount: 0.5
+  exploration:
+    epsilon: 0.03
+    explore_states: [performing, delinquent, credito_em_liquidacao]
+    explore_max_liquidacao_days: 240
+
+oracle:
+  manifold:
+    n_latent: 6
+    obs_dim: 2
+    coef: 2.5
+    seed: 15007
+    channels: [none, sms, whatsapp, phone]
+    pop_std: 1.0
+    process_noise: 0.0
+    obs_noise: 0.6
+    decay: 0.85
+    obs_gain: 0.8
+    action_gain: 0.3
+  target_monthly_recovery_rate: 0.038
+  channel_effects: {none: -0.85, sms: 0.15, whatsapp: 0.30, phone: 0.55}
+  offer_sensitivity: 3.0
+  offer_effect: 0.9
+  contact_fatigue:
+    beta: 0.80
+    decay: 0.50
+    increment: 1.0
+    human_multiplier: 1.25
+    beta_heterogeneity:
+      amp: 1.0
+      feature: monthly_income
+      center: 3000.0
+      scale: 3000.0
+  liquidacao_age_effect: -0.050
+  loan_age_effect: -0.012
+  hidden_confounding_strength: 0.5
+  noise_std: 0.20
+  chargeoff_after_liquidacao_days: 360
+  offer_requires_contact: true

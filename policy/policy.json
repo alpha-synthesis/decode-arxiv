@@ -1,0 +1,102 @@
+{
+  "kind": "analyst_policy",
+  "version": 2,
+  "model": "anthropic/claude-fable-5",
+  "rounds_used": 8,
+  "usage": {
+    "prompt_tokens": 102604,
+    "completion_tokens": 21709,
+    "seconds": 0.0,
+    "calls": 8
+  },
+  "generation": {
+    "prompt_version": "v2",
+    "prompt_version_requested": "(auto)",
+    "exploration_labels_published": true,
+    "exploration_rows_in_input": 268579,
+    "code_dirty": true,
+    "sample_regime": "in_sample",
+    "holdout": "",
+    "prompt_sha256": "4fc0f1e952b2edec",
+    "rounds_allowed": 8,
+    "max_tokens": 16000,
+    "num_ctx": 65536,
+    "think": false,
+    "policy_columns": 36,
+    "tools": [
+      "run_sql",
+      "observed_effect",
+      "randomised_effect",
+      "overlap"
+    ],
+    "exploration_visible": true,
+    "dropped_columns": [],
+    "unavailable_tool_requests": []
+  },
+  "policy": {
+    "rules": [
+      {
+        "if": "days_past_due > 365 AND outstanding_balance < 250",
+        "channel": "sms",
+        "discount": 0.0,
+        "because": "no randomised coverage above dpd 365; observed phone nets -3.3 after currency 6 cost at this balance, sms is breakeven; discount 0 because randomised sms recovery declines with discount"
+      },
+      {
+        "if": "days_past_due > 365",
+        "channel": "phone",
+        "discount": 0.5,
+        "because": "extrapolated: no randomised rows above dpd 365, but observed covariates are balanced across channels there and phone recovers 130 net vs ~2 for sms; 0.5 matches both the historical deep-dpd practice and the identified pattern of optimal discount rising with dpd"
+      },
+      {
+        "if": "outstanding_balance < 500 AND days_past_due <= 90",
+        "channel": "sms",
+        "discount": 0.0,
+        "because": "randomised: at bal<500 early band sms net 28.1 ties phone net 26.9 (within SE); sms is 60x cheaper, and sms recovery is maximised at discount 0"
+      },
+      {
+        "if": "days_past_due <= 30",
+        "channel": "phone",
+        "discount": 0.0,
+        "because": "randomised phone dominates (net 528 vs sms 386); recovered amount is highest at discount 0 (621 vs 405 at 0.5) \u2014 fresh delinquents pay without concession"
+      },
+      {
+        "if": "days_past_due <= 90",
+        "channel": "phone",
+        "discount": 0.1,
+        "because": "randomised mid band: phone net 1168 vs sms 994; recovery peaks at disc 0.1 (1388\u00b179 vs 1349\u00b1117 at 0, falling to 914 at 0.5)"
+      },
+      {
+        "if": "days_past_due <= 180",
+        "channel": "phone",
+        "discount": 0.2,
+        "because": "randomised 91-180: phone recovery peaks at 0.1-0.2 (846\u00b150 at 0.2 vs 777\u00b173 at 0 and 545 at 0.5); holds for balances >=2k too (1335\u00b181)"
+      },
+      {
+        "if": "days_past_due <= 365",
+        "channel": "phone",
+        "discount": 0.3,
+        "because": "randomised 181-365: phone net 480 vs sms 227; recovery peak at disc 0.3 (307\u00b126 vs 283\u00b137 at 0); optimal concession rises with depth"
+      }
+    ],
+    "default": {
+      "channel": "phone",
+      "discount": 0.2,
+      "because": "safety net (rules above cover the dpd space); phone is the randomised-best channel in every tested segment and 0.2 is a middle-of-curve discount"
+    }
+  },
+  "confidence": {
+    "identified": [
+      "phone > sms > whatsapp in net value for all dpd <= 365, all balance buckets >= currency 500, all products and fatigue levels (n = 89k randomised rows per channel, gaps many SEs wide)",
+      "sms recovery is maximised at discount 0 and declines monotonically with discount",
+      "phone optimal discount rises with dpd: ~0 at <=30, ~0.1 at 31-90, ~0.2 at 91-180, ~0.3 at 181-365 (peaks identified within ~1 SE of neighbours; the channel choice, not the exact notch, carries most of the value)",
+      "at bal<500 and dpd<=90 sms and phone are statistically tied net of cost, so cheap sms is preferred",
+      "phone remains strongly positive net even under high contact fatigue (net 128 at fatigue>2.3) and at balances 250-2000 for dpd 91-365"
+    ],
+    "extrapolated": [
+      "everything at dpd > 365: zero randomised coverage; phone-with-0.5 rests on observed data where channel assignment appears balanced on observables (identical balance/fatigue distributions across channels), but selection on unobservables cannot be excluded",
+      "the sms fallback at dpd>365 and bal<250 is a judgment call between two roughly-zero-value options (sms vs none); observed data is confounded there",
+      "the value of 'none' is never identified anywhere (it was never explored); I assume contacting weakly dominates given phone's large randomised margins, but cannot prove it for any segment",
+      "actions outside the logged channels have zero logged observations; I cannot value them, so I avoid them entirely rather than risk invalid actions"
+    ]
+  }
+}

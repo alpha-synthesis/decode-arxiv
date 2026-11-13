@@ -1,0 +1,21 @@
+{
+  "member": "BASE",
+  "config": "adversarial_v7_scenario_frozen.yaml",
+  "released_config_sha256": "1d042818dbbcf9c2732390d887482d8afb3d05b9ed52edb80dd84b3394adc07f",
+  "config_semantic_sha256": "b5ef1ddcc066fa0e4580b089b957a470fc97a49ac6a0feec1e7ffbd4b8fbb870",
+  "note": "comments removed; the parsed configuration is identical to the released one (semantic hash equal)",
+  "generation_batch_size": 10000,
+  "worlds": {
+    "check": {
+      "seed": 16001
+    },
+    "train": {
+      "seed": 16001
+    },
+    "infer": {
+      "seed": 16002
+    },
+    "recorded_scenario_sha256": "1d042818dbbcf9c2732390d887482d8afb3d05b9ed52edb80dd84b3394adc07f",
+    "recorded_bands_sha256": "99b3c8e4f7008181ea6d5ac7685e4c1c08f89e1f586a882933e63464399c6700"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "pass": true,
+  "bands": [
+    {
+      "band": "train.recovered_1m",
+      "value": 0.0471,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.03, 0.1])"
+    },
+    {
+      "band": "train.recovered_9m",
+      "value": 0.1502,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.1, 0.22])"
+    },
+    {
+      "band": "infer.recovered_1m",
+      "value": 0.0719,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.03, 0.1])"
+    },
+    {
+      "band": "infer.recovered_9m",
+      "value": 0.1863,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.1, 0.22])"
+    },
+    {
+      "band": "prob_separation",
+      "value": 0.1762,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(min 0.15)"
+    },
+    {
+      "band": "leak_reading_rise",
+      "value": -0.0283,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(max 0.02, paired control control_d0_seed17002)"
+    },
+    {
+      "band": "prob_flat",
+      "value": 0.4546,
+      "pass": false,
+      "warn_only": true,
+      "detail": "(report-only, retired proxy; was max 0.4499)"
+    },
+    {
+      "band": "prob_headroom",
+      "value": 0.2435,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(min 0.15)"
+    },
+    {
+      "band": "separation_upper_sanity",
+      "value": 0.1762,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(warn above 0.35)"
+    },
+    {
+      "band": "headroom_upper_sanity",
+      "value": 0.2435,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(warn above 0.55)"
+    },
+    {
+      "band": "pilot_drift.separation",
+      "value": 0.0008,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(pilot 0.177; warn above 0.05)"
+    },
+    {
+      "band": "pilot_drift.flat",
+      "value": 0.0208,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(pilot 0.4338; warn above 0.05)"
+    },
+    {
+      "band": "pilot_drift.headroom",
+      "value": 0.0157,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(pilot 0.2592; warn above 0.05)"
+    },
+    {
+      "band": "key_min_gap",
+      "value": -0.0,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(rows 75854, min -1e-09)"
+    }
+  ]
+}

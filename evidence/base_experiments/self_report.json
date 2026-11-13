@@ -1,0 +1,18 @@
+{
+  "n": 4000,
+  "n_draws": 512,
+  "joint_value_mean": 1563.7170685666958,
+  "ce_chain_value_mean": 1738.655448706099,
+  "reproduces_reference_means": true,
+  "inflation_pct": 11.187342240866617,
+  "inflation_ci95_loan_bootstrap_pct": [
+    10.804382631512748,
+    11.572491974264528
+  ],
+  "n_boot": 10000,
+  "boot_seed": 20261104,
+  "mc_se_joint_mean_batch_means": 1.3579666941495718,
+  "share_loans_ce_above_joint": 0.9125,
+  "plan": "plan_bayes_filter.csv",
+  "conditioning": "one world and one geometry; the filter planner's executed plan; Gaussian filter posterior with true-trait base logits; loans resampled with the posterior draws held fixed"
+}

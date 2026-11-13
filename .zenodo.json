@@ -1,0 +1,52 @@
+{
+  "title": "DECODE: code, configurations and evidence",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>Code, frozen configurations and evidence for the paper <em>DECODE: Decomposable Environments for COntrolled Sequential-Decision Evaluation</em> (arXiv preprint, 2026). The release contains the world generator and the configurations and seeds of the five released members, the construction checks, the references and probes, the code of every graded solver (with the trained CE-Seq weights and the fitted GBM-cash model), the experiment drivers, the per-loan evidence behind every closed-loop interval on Base, and the code of the data figures. The worlds are regenerated from the recorded seeds.</p><p>Code is licensed under MIT; configurations, manifests, evidence, model weights and the rule policy under CC BY 4.0 (files LICENSE and LICENSE-DATA). No Fannie Mae loan-level data are included; the drawn cohort is recorded by a fingerprint.</p>",
+  "creators": [
+    {
+      "name": "Silva Prado, Diego",
+      "affiliation": "Alpha Synthesis Labs"
+    },
+    {
+      "name": "Caldas de Souza, Bruno",
+      "affiliation": "Alpha Synthesis Labs"
+    },
+    {
+      "name": "Amaral Penteado de Jesus, Tiago",
+      "affiliation": "Alpha Synthesis Labs"
+    },
+    {
+      "name": "Breuel, Cristiano",
+      "affiliation": "Alpha Synthesis Labs"
+    },
+    {
+      "name": "Bevitori Maffia De Oliveira, Cristiano",
+      "affiliation": "Alpha Synthesis Labs"
+    },
+    {
+      "name": "Guimarães Herrmann, Ricardo",
+      "affiliation": "Alpha Synthesis Labs",
+      "orcid": "0009-0008-9105-9652"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "keywords": [
+    "benchmark",
+    "sequential decision-making",
+    "partial observability",
+    "reinforcement learning",
+    "world models",
+    "consumer credit collections",
+    "value of information"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/alpha-synthesis/decode-arxiv/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "scheme": "url",
+      "resource_type": "software"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "g25001_d0p0": {
+    "flat": 0.6512,
+    "separation": 0.0938,
+    "headroom": 0.1262
+  },
+  "g25001_d0p5": {
+    "flat": 0.6448,
+    "separation": 0.0732,
+    "headroom": 0.1516
+  },
+  "g25001_d4p0": {
+    "flat": 0.632,
+    "separation": 0.0513,
+    "headroom": 0.1561
+  },
+  "g25002_d0p0": {
+    "flat": 0.5167,
+    "separation": 0.1441,
+    "headroom": 0.2329
+  },
+  "g25002_d0p5": {
+    "flat": 0.3223,
+    "separation": 0.2052,
+    "headroom": 0.3392
+  },
+  "g25002_d4p0": {
+    "flat": 0.3855,
+    "separation": 0.1998,
+    "headroom": 0.3244
+  },
+  "g25003_d0p0": {
+    "flat": 0.282,
+    "separation": 0.2484,
+    "headroom": 0.3765
+  },
+  "g25003_d0p5": {
+    "flat": 0.3381,
+    "separation": 0.2598,
+    "headroom": 0.3128
+  },
+  "g25003_d4p0": {
+    "flat": 0.0931,
+    "separation": 0.4923,
+    "headroom": 0.3375
+  },
+  "g25004_d0p0": {
+    "flat": 0.2697,
+    "separation": 0.2251,
+    "headroom": 0.4138
+  },
+  "g25004_d0p5": {
+    "flat": 0.1779,
+    "separation": 0.4188,
+    "headroom": 0.3025
+  },
+  "g25004_d4p0": {
+    "flat": 0.1542,
+    "separation": 0.3125,
+    "headroom": 0.4332
+  }
+}

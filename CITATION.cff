@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code or its data, please cite the paper."
+title: "DECODE: code, configurations and evidence"
+type: software
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/alpha-synthesis/decode-arxiv"
+doi: "10.5281/zenodo.24200270"
+authors:
+  - family-names: "Silva Prado"
+    given-names: "Diego"
+    affiliation: "Alpha Synthesis Labs"
+  - family-names: "Caldas de Souza"
+    given-names: "Bruno"
+    affiliation: "Alpha Synthesis Labs"
+  - family-names: "Amaral Penteado de Jesus"
+    given-names: "Tiago"
+    affiliation: "Alpha Synthesis Labs"
+  - family-names: "Breuel"
+    given-names: "Cristiano"
+    affiliation: "Alpha Synthesis Labs"
+  - family-names: "Bevitori Maffia De Oliveira"
+    given-names: "Cristiano"
+    affiliation: "Alpha Synthesis Labs"
+  - family-names: "Guimarães Herrmann"
+    given-names: "Ricardo"
+    affiliation: "Alpha Synthesis Labs"
+    orcid: "https://orcid.org/0009-0008-9105-9652"
+preferred-citation:
+  type: article
+  title: "DECODE: Decomposable Environments for COntrolled Sequential-Decision Evaluation"
+  authors:
+    - family-names: "Silva Prado"
+      given-names: "Diego"
+    - family-names: "Caldas de Souza"
+      given-names: "Bruno"
+    - family-names: "Amaral Penteado de Jesus"
+      given-names: "Tiago"
+    - family-names: "Breuel"
+      given-names: "Cristiano"
+    - family-names: "Bevitori Maffia De Oliveira"
+      given-names: "Cristiano"
+    - family-names: "Guimarães Herrmann"
+      given-names: "Ricardo"
+  year: 2026
+  journal: "arXiv preprint"

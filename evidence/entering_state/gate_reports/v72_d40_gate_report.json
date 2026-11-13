@@ -1,0 +1,97 @@
+{
+  "pass": false,
+  "bands": [
+    {
+      "band": "train.recovered_1m",
+      "value": 0.0537,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.03, 0.1])"
+    },
+    {
+      "band": "train.recovered_9m",
+      "value": 0.1701,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.1, 0.22])"
+    },
+    {
+      "band": "infer.recovered_1m",
+      "value": 0.0862,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(band [0.03, 0.1])"
+    },
+    {
+      "band": "infer.recovered_9m",
+      "value": 0.2385,
+      "pass": false,
+      "warn_only": false,
+      "detail": "(band [0.1, 0.22])"
+    },
+    {
+      "band": "prob_separation",
+      "value": 0.1168,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(report-only for this member)"
+    },
+    {
+      "band": "prob_flat",
+      "value": 0.3167,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(max 0.43)"
+    },
+    {
+      "band": "prob_headroom",
+      "value": 0.4485,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(min 0.35)"
+    },
+    {
+      "band": "separation_upper_sanity",
+      "value": 0.1168,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(warn above 0.35)"
+    },
+    {
+      "band": "headroom_upper_sanity",
+      "value": 0.4485,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(warn above 0.55)"
+    },
+    {
+      "band": "pilot_drift.separation",
+      "value": 0.0324,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(pilot 0.0844; warn above 0.05)"
+    },
+    {
+      "band": "pilot_drift.flat",
+      "value": 0.0659,
+      "pass": false,
+      "warn_only": true,
+      "detail": "(pilot 0.3826; warn above 0.05)"
+    },
+    {
+      "band": "pilot_drift.headroom",
+      "value": 0.033,
+      "pass": true,
+      "warn_only": true,
+      "detail": "(pilot 0.4155; warn above 0.05)"
+    },
+    {
+      "band": "key_min_gap",
+      "value": -0.0,
+      "pass": true,
+      "warn_only": false,
+      "detail": "(rows 73215, min -1e-09)"
+    }
+  ],
+  "probe_state_timing": "entering"
+}

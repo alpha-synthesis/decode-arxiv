@@ -1,0 +1,20 @@
+{
+  "member": "NOISE-0.1",
+  "config": "adversarial_v8_q01_scenario_frozen.yaml",
+  "released_config_sha256": "16f48716b39072735d270281cbd27960b6787cf44624ec472a43b1dec4f315d4",
+  "config_semantic_sha256": "d267f99b64a9c0a615c43ea4fcf323b15f0f1f41d624fda00b2aa0e256070465",
+  "note": "comments removed; the parsed configuration is identical to the released one (semantic hash equal)",
+  "generation_batch_size": 10000,
+  "worlds": {
+    "train": {
+      "seed": 19001,
+      "gated_utc": "2026-09-01T17:11:03.488383+00:00",
+      "recorded_config_sha256": "16f48716b39072735d270281cbd27960b6787cf44624ec472a43b1dec4f315d4"
+    },
+    "infer": {
+      "seed": 19002,
+      "gated_utc": "2026-09-01T17:11:03.488570+00:00",
+      "recorded_config_sha256": "16f48716b39072735d270281cbd27960b6787cf44624ec472a43b1dec4f315d4"
+    }
+  }
+}

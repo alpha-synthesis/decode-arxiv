@@ -1,0 +1,5 @@
+rows 139036 | pooled linear model across channels: R2(score) = 0.0611
+  channel phone    : n  46445  R2(score) 0.3971  linear-term sd 0.847
+  channel sms      : n  46303  R2(score) 0.5627  linear-term sd 1.194
+  channel whatsapp : n  46288  R2(score) 0.7272  linear-term sd 1.010
+separate linear model per channel: row-weighted mean R2(score) = 0.5622

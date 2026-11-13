@@ -1,0 +1,288 @@
+{
+  "world": "worlds/adversarial_v72_d40_rev2_train",
+  "rows": 45691,
+  "lags": [
+    0.5854442134365934,
+    0.5790359062986011,
+    0.5910346507122721
+  ],
+  "gru_seed2": [
+    0.5848400576921335,
+    0.580478812097581,
+    0.5959231270721502
+  ],
+  "gru_seed3": [
+    0.5754294658378423,
+    0.5770034849151893,
+    0.5785543033476883
+  ],
+  "gru_seed4": [
+    0.5833670864342422,
+    0.5747101654047726,
+    0.5846684956564843
+  ],
+  "gru128x2_seed2": [
+    0.6875967493168217,
+    0.6810045473200476,
+    0.6957731084897752
+  ],
+  "gru128x2_seed2_stops": [
+    {
+      "best_epoch": 28,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 28,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "gru128x2_seed3": [
+    0.6948234598879343,
+    0.6953698528201564,
+    0.6852040946732654
+  ],
+  "gru128x2_seed3_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 27,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "gru128x2_seed4": [
+    0.6896071591680326,
+    0.6858946728805009,
+    0.7026553944455647
+  ],
+  "gru128x2_seed4_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "lstm128x2_seed2": [
+    0.661287735406259,
+    0.6300400518428746,
+    0.6393455565410622
+  ],
+  "lstm128x2_seed2_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "lstm128x2_seed3": [
+    0.6361248251673803,
+    0.6513724036435331,
+    0.6804097930048607
+  ],
+  "lstm128x2_seed3_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "lstm128x2_seed4": [
+    0.6581744714151208,
+    0.66101363567841,
+    0.6619153933413455
+  ],
+  "lstm128x2_seed4_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "tfm64x2_seed2": [
+    0.5013420405215996,
+    0.49175720538611234,
+    0.5100881763228076
+  ],
+  "tfm64x2_seed2_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "tfm64x2_seed3": [
+    0.4942518434784845,
+    0.4903352062151576,
+    0.49627460015281466
+  ],
+  "tfm64x2_seed3_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "tfm64x2_seed4": [
+    0.5039121704395988,
+    0.5005475724753666,
+    0.49593867683630255
+  ],
+  "tfm64x2_seed4_stops": [
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 29,
+      "last_epoch": 29,
+      "hit_max": true
+    }
+  ],
+  "gru32long_seed2": [
+    0.6682024942256277,
+    0.6522965696833728,
+    0.6646880715422367
+  ],
+  "gru32long_seed2_stops": [
+    {
+      "best_epoch": 98,
+      "last_epoch": 99,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 99,
+      "last_epoch": 99,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 98,
+      "last_epoch": 99,
+      "hit_max": true
+    }
+  ],
+  "gru32long_seed3": [
+    0.6673935362531049,
+    0.6538433094798847,
+    0.6741495978775915
+  ],
+  "gru32long_seed3_stops": [
+    {
+      "best_epoch": 95,
+      "last_epoch": 99,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 99,
+      "last_epoch": 99,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 98,
+      "last_epoch": 99,
+      "hit_max": true
+    }
+  ],
+  "gru32long_seed4": [
+    0.6660180135608421,
+    0.6584428509858204,
+    0.67390106257263
+  ],
+  "gru32long_seed4_stops": [
+    {
+      "best_epoch": 99,
+      "last_epoch": 99,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 99,
+      "last_epoch": 99,
+      "hit_max": true
+    },
+    {
+      "best_epoch": 93,
+      "last_epoch": 99,
+      "hit_max": true
+    }
+  ]
+}

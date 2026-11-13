@@ -1,0 +1,27 @@
+common:
+  recovered_1m: {min: 0.03, max: 0.10}
+  recovered_9m: {min: 0.10, max: 0.22}
+  key_min_gap_min: -1.0e-9
+  separation_warn_max: 0.35
+  headroom_warn_max: 0.55
+  pilot_drift_warn: 0.05
+d05:
+  prob_separation_min: 0.15
+  leak_reading_rise_max: 0.02
+  control_world: control_d0_seed17002
+  prob_flat_report_only: 0.4499
+  prob_headroom_min: 0.15
+  pilot: {separation: 0.1770, flat: 0.4338, headroom: 0.2592}
+d40:
+  prob_headroom_min: 0.35
+  prob_flat_max: 0.43
+  pilot: {separation: 0.0844, flat: 0.3826, headroom: 0.4155}
+d40_rev2:
+  clauses_from: d40
+  pilot: {separation: 0.1221, flat: 0.3236, headroom: 0.4352}
+v8_q01:
+  realism_only: true
+  pilot: {rec1m: 0.0719, rec9m: 0.1852}
+v8_q02:
+  realism_only: true
+  pilot: {rec1m: 0.0748, rec9m: 0.2067}

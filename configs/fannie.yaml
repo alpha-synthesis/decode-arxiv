@@ -1,0 +1,31 @@
+features:
+  numeric:
+  - delinquency_depth_at_entry
+  - original_interest_rate
+  - current_interest_rate
+  - original_upb
+  - current_actual_upb
+  - original_loan_term
+  - loan_age
+  - remaining_months_to_maturity
+  - remaining_months_to_legal_maturity
+  - original_ltv
+  - original_cltv
+  - number_of_borrowers
+  - original_dti
+  - borrower_credit_score_at_origination
+  - co_borrower_credit_score_at_origination
+  - mortgage_insurance_percentage
+  categorical:
+  - channel
+  - loan_purpose
+  - property_type
+  - occupancy_status
+  - property_state
+  - first_time_home_buyer_indicator
+  - high_balance_loan_indicator
+  - relocation_mortgage_indicator
+  - special_eligibility_program
+target:
+  column: cure_h6
+  type: classification
