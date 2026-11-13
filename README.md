@@ -2,8 +2,8 @@
 
 This repository accompanies the paper *DECODE: Decomposable Environments for
 COntrolled Sequential-Decision Evaluation* (Silva Prado, Caldas de Souza,
-Amaral Penteado de Jesus, Breuel, Bevitori Maffia De Oliveira and Guimarães
-Herrmann, arXiv preprint, 2026). An archived copy of this release is at
+Amaral Penteado de Jesus, Guimarães Herrmann, Breuel and Bevitori Maffia De
+Oliveira, arXiv preprint, 2026). An archived copy of this release is at
 https://doi.org/10.5281/zenodo.24200270.
 
 It contains:

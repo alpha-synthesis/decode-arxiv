@@ -6,15 +6,22 @@
   "creators": [
     {
       "name": "Silva Prado, Diego",
-      "affiliation": "Alpha Synthesis Labs"
+      "affiliation": "Alpha Synthesis Labs",
+      "orcid": "0000-0003-4077-4994"
     },
     {
       "name": "Caldas de Souza, Bruno",
-      "affiliation": "Alpha Synthesis Labs"
+      "affiliation": "Alpha Synthesis Labs",
+      "orcid": "0000-0002-3052-0061"
     },
     {
       "name": "Amaral Penteado de Jesus, Tiago",
       "affiliation": "Alpha Synthesis Labs"
+    },
+    {
+      "name": "Guimarães Herrmann, Ricardo",
+      "affiliation": "Alpha Synthesis Labs",
+      "orcid": "0009-0008-9105-9652"
     },
     {
       "name": "Breuel, Cristiano",
@@ -23,11 +30,6 @@
     {
       "name": "Bevitori Maffia De Oliveira, Cristiano",
       "affiliation": "Alpha Synthesis Labs"
-    },
-    {
-      "name": "Guimarães Herrmann, Ricardo",
-      "affiliation": "Alpha Synthesis Labs",
-      "orcid": "0009-0008-9105-9652"
     }
   ],
   "access_right": "open",
